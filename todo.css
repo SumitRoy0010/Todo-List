@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(4, 29, 29);
+}
+
+.container {
+  width: 360px;
+  padding: 33px;
+  text-align: center;
+  background-color: rgb(18, 147, 207);
+  margin: 33%;
+  margin-top: 100px;
+}
+
+input {
+  width: 260px;
+  height: 42px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+button {
+  width: 60px;
+  height: 42px;
+  background-color: rgb(238, 119, 8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.text ul {
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(4, 29, 29);
+  display: flex;
+  justify-content: space-between;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .text ul {
+    font-size: 5vw;
+  }
+}
+
+.text ul i {
+  padding-left: 200px;
+  cursor: pointer;
+}
